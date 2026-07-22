@@ -1781,3 +1781,206 @@ footer p{
     font-size:14px;
 }
 }
+/* ===========================
+   MOBILE VERSION
+=========================== */
+
+@media (max-width:768px){
+
+/* Общие */
+
+body{
+    overflow-x:hidden;
+}
+
+section{
+    padding:70px 20px;
+}
+
+/* HERO */
+
+.hero{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:30px;
+    padding-top:110px;
+}
+
+.hero-content{
+    width:100%;
+}
+
+.hero-subtitle{
+    font-size:15px;
+    letter-spacing:4px;
+}
+
+.hero h1{
+    font-size:48px;
+    line-height:1.05;
+    margin:20px 0;
+}
+
+.hero p{
+    font-size:20px;
+    line-height:1.6;
+    max-width:100%;
+}
+
+/* Кнопки */
+
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    margin-top:35px;
+}
+
+.hero-btn,
+.hero-btn-secondary{
+
+    width:100%;
+    padding:18px;
+    font-size:20px;
+    border-radius:18px;
+
+}
+
+/* Фото */
+
+.hero-image{
+    width:100%;
+}
+
+.hero-image img{
+
+    width:100%;
+    max-width:380px;
+
+    border-radius:25px;
+
+    display:block;
+    margin:auto;
+
+}
+
+/* Статистика */
+
+.hero-stats{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:12px;
+
+    margin-top:35px;
+
+}
+
+.stat{
+
+    padding:22px 10px;
+
+    border-radius:20px;
+
+}
+
+.stat h3{
+
+    font-size:38px;
+
+}
+
+.stat span{
+
+    font-size:15px;
+
+}
+
+/* Заголовки */
+
+.section-title h2{
+
+    font-size:42px;
+    line-height:1.2;
+
+}
+
+.section-title span{
+
+    font-size:15px;
+    letter-spacing:5px;
+
+}
+
+/* Карточки */
+
+.advantages-grid,
+.schedule-grid,
+.reviews-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.advantage-card{
+
+    padding:35px 25px;
+
+}
+
+.advantage-card h3{
+
+    font-size:34px;
+
+}
+
+.advantage-card p{
+
+    font-size:18px;
+    line-height:1.7;
+
+}
+
+/* Контакты */
+
+.contact-buttons{
+
+    display:flex;
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.contact-buttons a{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+/* Видео */
+
+video{
+
+    width:100%;
+    border-radius:20px;
+
+}
+
+/* Карта */
+
+iframe{
+
+    width:100%;
+    height:320px;
+    border-radius:20px;
+
+}
+
+}
