@@ -1,5 +1,5 @@
 console.log("Bilyalov Jiu-Jitsu Team");
-const REVIEW_URL = "https://script.google.com/macros/s/AKfycbylpwFdd3NQ2TBnO0m7UuhTwC76dKf9lj3KHg8raUf4isuKfxfmsUJBLOGU-JqIi58G/exec";
+const REVIEW_URL = "https://script.google.com/macros/s/AKfycbwKluCs6Dc7B8-q_vjdGXzIpSpcex2njg7rkSKzkqVgI7yEJVwcCqUI_owAatI3kfLW/exec";
 const reviewForm = document.getElementById("reviewForm");
 const reviewsList = document.getElementById("reviewsList");
 
