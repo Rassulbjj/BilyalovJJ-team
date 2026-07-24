@@ -20,9 +20,13 @@ if (reviewForm) {
         try {
 
             const response = await fetch(REVIEW_URL, {
-                method: "POST",
-                body: formData
-            });
+    method: "POST",
+    body: formData
+});
+
+const result = await response.text();
+console.log(result);
+alert(result);
 
            const success = document.getElementById("reviewSuccess");
 
