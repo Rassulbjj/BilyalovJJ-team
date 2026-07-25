@@ -64,13 +64,33 @@ async function loadReviews() {
 
         reviews.forEach(r => {
 
-            reviewsList.innerHTML += `
-                <div class="review-card">
-                    <div class="stars">${"⭐".repeat(Number(r.rating))}</div>
-                    <p>${r.review}</p>
-                    <h4>${r.name}</h4>
-                </div>
-            `;
+           reviewsList.innerHTML += `
+<div class="review-card">
+
+    <div class="review-header">
+
+        <div class="avatar">
+            ${r.name.charAt(0).toUpperCase()}
+        </div>
+
+        <div>
+
+            <h4>${r.name}</h4>
+
+            <div class="stars">
+                ${"⭐".repeat(Number(r.rating))}
+            </div>
+
+        </div>
+
+    </div>
+
+    <p class="review-text">
+        “${r.review}”
+    </p>
+
+</div>
+`;
 
         });
 
